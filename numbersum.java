@@ -2,14 +2,14 @@ import java.util.*;
 public class numbersum {
     public static void main(String[]args){
         int number;
-        int i;
+        int printNumber;
         Scanner input = new Scanner(System.in);
-        System.out.println("Insert number: ");
+        System.out.print("Insert number: ");
         number = input.nextInt();
-        i = 1;
-        while (i <= number){
-            System.out.println(i);
-            i++;
+        printNumber = 1;
+        while (printNumber <= number){
+            System.out.println(printNumber);
+            printNumber++;
         }
     }
 }
