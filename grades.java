@@ -3,7 +3,7 @@ public class grades{
     public static void main(String[]args){
         int gradeNumber;
         Scanner input = new Scanner(System.in);
-        System.out.println("Hello! What did you get on the test today?");
+        System.out.print("Hello! What did you get on the test today?");
         gradeNumber = input.nextInt();
         if(gradeNumber >= 90){
             System.out.println("An A? Thats good!");
