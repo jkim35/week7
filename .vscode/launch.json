@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch gcd",
+            "request": "launch",
+            "mainClass": "gcd",
+            "projectName": "week7_f36adbfa"
+        },
+        {
+            "type": "java",
+            "name": "Launch grades",
+            "request": "launch",
+            "mainClass": "grades",
+            "projectName": "week7_f36adbfa"
+        },
+        {
+            "type": "java",
+            "name": "Launch numbersum",
+            "request": "launch",
+            "mainClass": "numbersum",
+            "projectName": "week7_f36adbfa"
+        },
+        {
+            "type": "java",
+            "name": "Launch prompt",
+            "request": "launch",
+            "mainClass": "prompt",
+            "projectName": "week7_f36adbfa"
+        }
+    ]
+}
